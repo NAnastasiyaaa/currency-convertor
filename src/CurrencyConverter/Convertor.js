@@ -39,7 +39,8 @@ const Convertor = (config) => {
       };
       getCurrencyconvertTo();
     }
-  }, [amount, base, convertTo,initialState]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [amount, base, convertTo]);
 
   const getConvertResult = () => {
     if (amount === "") return "0";
