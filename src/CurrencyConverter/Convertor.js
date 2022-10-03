@@ -39,7 +39,7 @@ const Convertor = (config) => {
       };
       getCurrencyconvertTo();
     }
-  }, [amount, base, convertTo]);
+  }, [amount, base, convertTo,initialState]);
 
   const getConvertResult = () => {
     if (amount === "") return "0";
