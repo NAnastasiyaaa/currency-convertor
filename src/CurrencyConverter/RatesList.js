@@ -46,7 +46,7 @@ function RatesList() {
       <ul className="list-group">
         {ratesList.map((d) => (
           <li className="list-group-item" key={d.symbol}>
-          {d.symbol} - {d.rate}<img src={flagImg} style={{width:'20px', height:'20px', marginLeft:'10px', marginTop:'3px'}}></img>
+          {d.symbol} - {d.rate}<img src={flagImg} alt="" style={{width:'20px', height:'20px', marginLeft:'10px', marginTop:'3px'}}></img>
           </li>
         ))}
       </ul>
